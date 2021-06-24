@@ -1,1 +1,1 @@
-# study_ML101
+This repository is for study projects
