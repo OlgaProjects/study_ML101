@@ -1,1 +1,4 @@
-Лекция изучена
+Практическое задание выполнено.
+Скриншоты приложены.
+Module01_task02_jupyter.png
+Module01_task02_register_and_connect_to_data_science_repository.png
