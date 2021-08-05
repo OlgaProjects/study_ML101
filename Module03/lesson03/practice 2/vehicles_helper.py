@@ -18,7 +18,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-def attributes_counts(dataset):
+def target_attributes_counts(dataset):
     """ Basic descriptions of the target attribute.
     
     This module displays 'Class' attribute value counts 
