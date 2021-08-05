@@ -73,13 +73,4 @@ def corr_plot_list(dataset):
     print("'Correlation plot of each attribute: "+"\n", dataset.corr()['Class'].sort_values().plot(kind='bar', figsize=(18, 6)))
 
 
-def svc_model_show_accuracy(X_train, y_train, X_test, y_test):
-    """This module presents SVC model."""
-
-    classifier = SVC(kernel='linear', decision_function_shape='ovo', tol=0.03)
-    classifier.fit(X_train, y_train)
-    SVC_pred = classifier.predict(X_test)
-    accuracy = accuracy_score(SVC_pred, y_test)
-    print("Accuracy:", accuracy * 100)
-
 
